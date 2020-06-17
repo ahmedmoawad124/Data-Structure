@@ -45,3 +45,10 @@ This type of list has connections backwards and forwards through the list.
 #### 3. Circular Linked Lists
 Circular linked lists occur when the chain of nodes links back to itself somewhere. For example NodeA -> NodeB -> NodeC -> NodeD -> NodeB is a circular list because NodeD points back to NodeB creating a loop NodeB -> NodeC -> NodeD -> NodeB.
 ![image](https://user-images.githubusercontent.com/59261333/84935197-a839b480-b0d8-11ea-8d16-c7a2d9932e3d.png)
+#### Implement a linked list class. Your class should be able to:
+- Append data to the tail of the list and prepend to the head
+- Search the linked list for a value and return the node
+- Remove a node
+- Pop, which means to return the first node's value and delete the node from the list
+- Insert data at some position in the list
+- Return the size (length) of the linked list
